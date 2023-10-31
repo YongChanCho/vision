@@ -11,4 +11,4 @@ cv.imshow('Image Display Soccer',img)   #첫번째 인수는 윈도우 이름,�
 
 #아래 waitKey가 없으면 윈도우 생성 후 프로그램 즉시 종료되어 못봄
 cv.waitKey(5000)   #인수 없으면 키보드의 키가 눌릴 때까지 wait(이건 5000밀리초(5초)wait)
-cv.destroyAllWindows()  #모든 윈도우 종료
+cv.destroyAllWindows()  #모든 윈도우가 종료됨
